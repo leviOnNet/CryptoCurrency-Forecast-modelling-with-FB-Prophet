@@ -11,7 +11,7 @@ import datetime
 from fbprophet import Prophet
 from fbprophet.plot import plot, plot_plotly, plot_components_plotly
 
-
+#create your own file name config and define your API_KEY and API_SECRET
 client = Client(config.API_KEY, config.API_SECRET)
 
 # prices = client.get_all_tickers()
